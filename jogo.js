@@ -20,16 +20,19 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload(){
-    //
-
+    //Carregar assets
+    this.load.image("mFalcon", "asset/falcon.png")
+    this.load.image("tiefigther", "asset/tief.png")
+    this.load.image("laser", "asset/laser_azul.png")
+    this.load.image("deathstar", "asset/deathstar.png")
 }
 
 function create(){
     //
-
+    
 }
 
 function update(){
     //
-    
+
 }
