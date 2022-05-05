@@ -17,6 +17,20 @@ var config = {
     }
 };
 
+var enemyInfo = {
+    width: 40,
+    height: 20,
+    count: {
+        row: 5,
+        col: 9
+    },
+    offset: {
+        top: 100,
+        left: 60
+    },
+    padding: 5
+};
+
 var game = new Phaser.Game(config);
 
 function preload(){
@@ -29,7 +43,7 @@ function preload(){
 
 function create(){
     //
-    
+
 }
 
 function update(){
